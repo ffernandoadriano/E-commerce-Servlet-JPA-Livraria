@@ -8,10 +8,9 @@ import livraria.entity.Usuario;
 import webf.dao.DAO;
 import webf.dao.DAOException;
 
-
 public class UsuarioDAO extends DAO<Usuario> {
 
-	protected UsuarioDAO() {
+	public UsuarioDAO() {
 		super(Usuario.class);
 	}
 

@@ -10,7 +10,7 @@ import webf.dao.DAOException;
 
 public class LivroDAO extends DAO<Livro> {
 
-	protected LivroDAO() {
+	public LivroDAO() {
 		super(Livro.class);
 	}
 

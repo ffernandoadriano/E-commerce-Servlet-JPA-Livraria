@@ -11,7 +11,7 @@ import webf.dao.DAOException;
 
 public class PedidoDAO extends DAO<Pedido> {
 
-	protected PedidoDAO() {
+	public PedidoDAO() {
 		super(Pedido.class);
 	}
 
