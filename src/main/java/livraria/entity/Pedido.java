@@ -1,6 +1,7 @@
 package livraria.entity;
 
-import java.sql.Date;
+
+import java.util.Date;
 import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
