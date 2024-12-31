@@ -10,7 +10,9 @@ import webf.util.HibernateUtil;
 public class DBCreator {
 
 	public static void main(String[] args) throws Exception {
-		insertData();
+//		insertData();
+		
+		System.out.println("Hello World");
 	}
 
 	private static void insertData() throws Exception {
