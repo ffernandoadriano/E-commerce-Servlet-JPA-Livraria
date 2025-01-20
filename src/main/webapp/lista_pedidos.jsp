@@ -24,7 +24,7 @@
 					<td><fmt:formatNumber value="${p.valor}" type="currency" /></td>
 					<td>
 					<c:forEach var="l" items="${p.livros}">
-						- ${l.titulo}<br>
+						# ${l.titulo}<br>
 					</c:forEach>
 					</td>
 				</tr>
