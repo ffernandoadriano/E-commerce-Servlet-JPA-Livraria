@@ -8,9 +8,8 @@
 <!-- Footer -->
 	<div id="footer">
 		<div id="footer-in">
-			<p class="footer-left">&copy; <a href="http://localhost:8080/Livraria">Livraria Virtual</a>, 2024.</p>
-			<p class="footer-right"> Developed by Fernando Adriano
-			</p>
+			<p class="footer-left">&copy; <a href="<%=request.getContextPath()%>">Livraria Virtual</a>, 2024.</p>
+			<p class="footer-right"> Developed by Fernando Adriano </p>
 		</div>
 	</div>
 	<!-- Footer end -->
